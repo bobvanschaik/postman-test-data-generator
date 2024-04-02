@@ -13,7 +13,7 @@ function setEmailToGlobals(email) {
 }
  
 // the global is set to HardBounce
-const testEmail = 'hardbounced@simulator.quadientcloud.com';
+const testEmail = 'user@email.com';
 setEmailToGlobals(testEmail);
 
 // generate the random values
