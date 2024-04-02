@@ -8,6 +8,14 @@ function getRandomTenDigitInt() {
     return Math.floor(Math.random() * (9999999999 - 1000000000) + 1000000000);
 }
 
+function setEmailToGlobals(email) {
+    pm.globals.set('EmailAdress', email);
+}
+ 
+// the global is set to HardBounce
+const testEmail = 'hardbounced@simulator.quadientcloud.com';
+setEmailToGlobals(testEmail);
+
 // generate the random values
 const nineDigitJSValue = getRandomNineDigitInt();
 const tenDigitJSValue = getRandomTenDigitInt();
