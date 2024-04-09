@@ -1,6 +1,3 @@
-// Importing Faker library
-const faker = require('faker');
-
 // random generator function for 9 digits
 function getRandomNineDigitInt() {
     return Math.floor(Math.random() * (999999999 - 100000000) + 100000000);
