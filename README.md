@@ -1,2 +1,3 @@
 # postman-test-data-generator
-use environment variable {{nineDigitEnvironmentVar}} &amp; {{tenDigitEnvironmentVar}} in the request body
+use global variables in Postman to generate random values {{nineDigitEnvironmentVar}} &amp; {{tenDigitEnvironmentVar}} & {{randomGUIDstring}} in your API-request
+
