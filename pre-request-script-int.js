@@ -34,3 +34,20 @@ const randomGUIDstring = generateGUID();
 pm.globals.set('nineDigitEnvironmentVar', nineDigitJSValue);
 pm.globals.set('tenDigitEnvironmentVar', tenDigitJSValue);
 pm.globals.set('randomGUIDstring', randomGUIDstring);
+
+
+// const randomInt = (min, max) => Math.floor(Math.random() * (max - min) + min);
+
+// export const randomNineDigitInt = randomInt(100000000, 999999999);
+// export const randomTenDigitInt = randomInt(1000000000, 9999999999);
+
+// {
+//  "name": "Random 9-digit Integer",
+//  "request": {
+//    "method": "GET",
+//    "url": "https://example.com/api/endpoint",
+//    "variables": {
+//      "randomNineDigitInt": "$randomNineDigitInt"
+//    }
+//  }
+// }
